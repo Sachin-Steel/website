@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* logo on left, links on right */
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #222;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00bcd4; /* hover color */
+}
